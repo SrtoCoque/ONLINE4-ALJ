@@ -1,23 +1,22 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package online4.alj;
 
 import java.util.Scanner;
 
 /**
- *
- * @author ENVY
+ * Online4ALJ contiene el main del proyecto.
+ * <ul>
+ * <li>El valor opcion int recoge la opción del menú que desea escoger el usuario.</li>
+ * <li>El valor num1 int recoge el primer número introducido por el usuario.</li>
+ * <li>El valor num2 int recoge el segundo número introducido por el usuario.</li>
+ * <li>El valor suma int recoge el resultado de las operaciones del método.</li>
+ * </ul>
+ * @author Alvaro Lopez Jimenez.
  */
 public class ONLINE4ALJ {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-          int opcion,num1,num2,suma=0;
-        Scanner teclado = new Scanner (System.in);
+       int opcion,num1,num2,suma=0;
+       Scanner teclado = new Scanner (System.in);
        Operaciones operaciones = new Operaciones ();
        boolean bucle=false;
        
